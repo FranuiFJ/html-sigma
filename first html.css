@@ -1,0 +1,22 @@
+
+body {
+    background-color: #000000;
+    color: #ff0000;
+}
+.prime{
+    display: flex;
+      align-items: center;
+}
+    .prime img{
+         max-width: 250px;
+        padding-left: 25px;
+       
+    
+}
+    .prime h1{
+        font-size: 75px;
+      line-height: 1.5;
+     
+      margin: auto;
+    }
+
