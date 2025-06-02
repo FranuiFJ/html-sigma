@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <link rel="stylesheet" type="text/css" href="first html.css">
-<script src="pruebita.js"></script>
+<script src="punto3.js"></script>
 
 <html>
 <head>
@@ -9,18 +9,19 @@
 <body>
 <input type="number" id="numero1" placeholder="Ingresa un número">
   <input type="number" id="numero2" placeholder="Ingresa otro número">
-  <button onclick="sumar()">Resultado</button>
+  <button onclick="comparar()">esta es mas grande</button>
 
   <script>
-    function sumar() {
+    function comparar() {
       const num1 = parseFloat(document.getElementById('numero1').value);
       const num2 = parseFloat(document.getElementById('numero2').value);
-      const suma = num1 + num2;
-
-      console.log('Resultado:', suma);
+        if (num1>num2){
+            console.log('el mas grande es:',num1 );
+        }else{
+            console.log('el mas grande es:',num2 );
+        }
     }
   </script>
 
 </body>
 </html>
-
